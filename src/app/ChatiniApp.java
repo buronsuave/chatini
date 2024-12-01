@@ -14,7 +14,7 @@ import java.rmi.RemoteException;
 import java.util.Enumeration;
 
 public class ChatiniApp {
-    private static final String SERVER_NAME = "192.168.1.73";
+    private static final String SERVER_NAME = "192.168.0.10";
 
     private RemoteController back = null;
     private final GraphicApp front;

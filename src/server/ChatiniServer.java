@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 public class ChatiniServer extends UnicastRemoteObject implements ServerRemoteInterface  {
     private final ArrayList<String> contacts;
-    private static final String SERVER_NAME = "192.168.1.73";
+    private static final String SERVER_NAME = "192.168.0.10";
 
     public ChatiniServer() throws RemoteException {
         contacts = new ArrayList<>();
